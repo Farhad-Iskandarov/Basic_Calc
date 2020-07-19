@@ -29,7 +29,7 @@ while y is None:
     except ValueError:
         print ("HEY! You must write fucking number too".format(y))
 
-qwe= [1,2,3,4,5]
+qwe= ["1","2","3","4","5"]
 sual = input(""" 
 1-Collection - Toplama
 2-Extraction - Cikma
@@ -39,22 +39,32 @@ sual = input("""
 """)
 
 while sual != qwe:
-   print("You choosed wrong and fucked program")
-   #break
 
-if sual == "1":
-    print("Response: ", x + y)
+    sual = input(""" 
+   1-Collection - Toplama
+   2-Extraction - Cikma
+   3-Impact - Carpma
+   4-Chamber - Bolme
+   5-Getting force - Kuvvet alma
+   """)
 
-elif sual == "2":
-    print("Response: ", x - y)
+    if sual == "1":
+        print("Response: ", x + y)
+        break
+    elif sual == "2":
+        print("Response: ", x - y)
+        break
 
-elif sual == "3":
-    print("Response: ", x * y)
+    elif sual == "3":
+        print("Response: ", x * y)
+        break
 
-elif sual == "4":
-    print("Response: ", x / y)
+    elif sual == "4":
+        print("Response: ", x / y)
+        break
 
-elif sual == "5":
-    print("Response: ", x ** y)
-else:
-    print("Fuck off back and choose correct !")
+    elif sual == "5":
+        print("Response: ", x ** y)
+        break
+    else:
+        print("Fuck off back and choose correct !")
