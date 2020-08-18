@@ -14,7 +14,7 @@ created by:
  Welcome
       Nigga !
      """)
-
+#figlet
 x = None
 while x is None:
     try:
