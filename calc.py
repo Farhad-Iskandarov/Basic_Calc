@@ -12,7 +12,7 @@ created by:
  ___|___/_|\_\__,_|_| |_|\__,_|\__,_|_|  \___/ \_/                                                                                   
 
  Welcome
-      Nigga !
+      
      """)
 #figlet
 x = None
@@ -20,14 +20,14 @@ while x is None:
     try:
         x = float(input('Entry first number: '))
     except ValueError:
-        print ("HEY! You must write fucking number".format(x))
+        print ("HEY! You must write number".format(x))
 
 y = None
 while y is None:
     try:
         y = float(input('Entry second number: '))
     except ValueError:
-        print ("HEY! You must write fucking number too".format(y))
+        print ("HEY! You must write number too".format(y))
 
 qwe= ["1","2","3","4","5"]
 sual = input(""" 
@@ -67,4 +67,4 @@ while sual != qwe:
         print("Response: ", x ** y)
         break
     else:
-        print("Fuck off back and choose correct !")
+        print("Go back and choose correct !")
